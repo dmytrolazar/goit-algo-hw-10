@@ -3,6 +3,8 @@ import numpy as np
 from scipy import integrate
 import random
 
+random.seed(42)
+
 # Визначення функції та межі інтегрування
 def f(x):
     return (x + 1)*(x - 1)*(x - 2) + 1.5
